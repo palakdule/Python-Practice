@@ -178,3 +178,25 @@ c1 = C()
 print(c1.varC)
 print(c1.varB)
 print(c1.varA)
+
+#super method
+class Car:
+    def __init__(self, type):
+        self.type = type
+
+    @staticmethod
+    def start():
+        print("car started..")
+
+    @staticmethod
+    def stop():
+        print("car stopped.")
+
+class ToyotaCar(Car):
+    def __init__(self, name, type):
+        super().__init__(type)
+        self.name = name
+        super().start()
+
+car1 = ToyotaCar("pirus", "electric")
+print(car1.type)
