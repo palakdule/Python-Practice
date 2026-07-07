@@ -200,3 +200,16 @@ class ToyotaCar(Car):
 
 car1 = ToyotaCar("pirus", "electric")
 print(car1.type)
+
+
+#class method
+class Person:
+    name = "anonymous"
+
+    def changeName(self, name):
+        self.name = name
+
+p1 = Person()
+p1.changeName("Palak")
+print(p1.name)
+print(Person.name)
