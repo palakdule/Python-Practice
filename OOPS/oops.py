@@ -25,6 +25,7 @@ class Student:
 s1 = Student()
 print(s1)
 
+
 #example  
 class Student:
     def __init__(self, fullname):
@@ -94,7 +95,6 @@ class Student:
 s1 = Student("Palak")
 print(s1)
 del s1
- 
 print(s1)
 
 
