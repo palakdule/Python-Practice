@@ -122,6 +122,7 @@ class Person:
 p1 = Person()
 print(p1.welcome())
 
+
 #Inheritance
 class Car:
     @staticmethod
