@@ -47,6 +47,7 @@ print(f.read())
 f.write("abc")
 f.close()
 
+
 #a+ mode
 f = open("demo.txt", "a+")
 print(f.read())
