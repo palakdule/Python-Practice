@@ -9,6 +9,7 @@ print(data)
 print(type(data))
 f.close()
 
+
 #reading number of line
 f = open("demo.txt", "r")
 
