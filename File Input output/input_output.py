@@ -1,6 +1,7 @@
 #open file
 f = open("demo.txt", "r")
 
+
 #operation
 f = open("demo.txt", "r")
 data = f.read()
