@@ -54,6 +54,7 @@ print(f.read())
 f.write("abc")
 f.close()
 
+
 #with Syntax
 with open("demo.txt", "r")as f:
     data = f.read()
