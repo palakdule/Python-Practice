@@ -18,6 +18,5 @@ def check_for_line():
                 print(line_no)
                 return
             line_no += 1
-
     return -1
 check_for_line()
