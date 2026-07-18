@@ -50,18 +50,19 @@ This repository includes Python programs covering fundamental concepts, object-o
 
 ```text
 Python-Practice/
-│── 01_Basics/
-│── 02_Operators/
-│── 03_Conditional_Statements/
-│── 04_Loops/
-│── 05_Functions/
-│── 06_Lists/
-│── 07_Tuples/
-│── 08_Sets/
-│── 09_Dictionaries/
-│── 10_File_Handling/
-│── 11_OOP/
-│── 12_Recursion/
+│── Dictionary/
+│── File Input output/
+│── Functions/
+│── List/
+│── OOPS/
+│── Range/
+│── Recursion/
+│── Sets/
+│── Strings&conditional statements/
+│── Tuple/
+│── While loop/
+│── for loop/
+│── (Other practice programs)
 │── README.md
 ```
 
