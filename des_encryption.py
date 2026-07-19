@@ -24,4 +24,4 @@ decrypted_padded = decipher.decrypt(encrypted_data)
 decrypted_data = unpad(decrypted_padded, DES.block_size)
 
 print("\nDecrypted Payroll Information:")
-print(decrypted_data.decode('utf-8'))give commit msg
+print(decrypted_data.decode('utf-8'))
