@@ -1,45 +1,39 @@
 # 🐍 Python Practice
 
-Welcome to my **Python Practice** repository! This repository contains my Python learning journey, including basic concepts, problem-solving programs, and hands-on practice exercises. The programs are organized topic-wise to make learning and revision easier.
+A collection of Python programs and exercises created while learning Python fundamentals, strengthening problem-solving skills, and building a solid foundation in programming.
 
 ---
 
-## 📖 About
+## 📌 Topics Covered
 
-This repository includes Python programs covering fundamental concepts, object-oriented programming, recursion, file handling, and other important topics. It serves as my personal practice repository for improving programming skills and strengthening Python fundamentals.
-
----
-
-## 📂 Topics Covered
-
-- 🟢 Basics
-- ➕ Operators
-- 🔀 Conditional Statements
-- 🔁 Loops
-- ⚙️ Functions
-- 📋 Lists
-- 📦 Tuples
-- 🧩 Sets
-- 📖 Dictionaries
-- 📁 File Handling
-- 🏛️ Object-Oriented Programming (OOP)
-- 🔄 Recursion
-- 🎯 Pattern Programs
-- 📝 Practice Problems
+- 🔹 Variables & Data Types
+- 🔹 Operators
+- 🔹 Strings & Conditional Statements
+- 🔹 For Loop
+- 🔹 While Loop
+- 🔹 Functions
+- 🔹 List
+- 🔹 Tuple
+- 🔹 Dictionary
+- 🔹 Sets
+- 🔹 File Input Output
+- 🔹 OOPS
+- 🔹 Recursion
+- 🔹 Range
 
 ---
 
 ## ✨ Features
 
-- Topic-wise organized programs
-- Beginner-friendly examples
-- Well-structured practice code
-- Covers Python fundamentals and core concepts
-- Useful for revision and learning
+- Beginner-friendly Python programs
+- Topic-wise organized folder structure
+- Covers fundamental Python concepts
+- Easy to understand and practice
+- Continuously updated with new programs
 
 ---
 
-## 🛠️ Technologies Used
+## 💻 Technologies Used
 
 - Python 3
 - Visual Studio Code
@@ -55,27 +49,24 @@ Python-Practice/
 │── Functions/
 │── List/
 │── OOPS/
+│── Operators/
 │── Range/
 │── Recursion/
 │── Sets/
 │── Strings&conditional statements/
 │── Tuple/
+│── Variables & Data Types/
 │── While loop/
 │── for loop/
-│── (Other practice programs)
 │── README.md
 ```
 
-> **Note:** Some older programs were uploaded before organizing the repository into topic-wise folders. They are being gradually reorganized to maintain a clean and structured learning repository.
+---
+
+## 📖 Purpose
+
+This repository serves as my personal Python learning journal. It contains practice programs organized by topic to strengthen programming fundamentals, improve logical thinking, and track my learning progress.
 
 ---
 
-## 🎯 Purpose
-
-- Practice Python programming
-- Strengthen problem-solving skills
-- Revise Python concepts
-- Track my learning progress
-
----
-
+⭐ If you find this repository helpful, feel free to explore the programs and follow my learning journey!
