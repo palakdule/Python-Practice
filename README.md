@@ -6,20 +6,20 @@ A collection of Python programs and exercises created while learning Python fund
 
 ## 📌 Topics Covered
 
-- 🔹 Variables & Data Types
-- 🔹 Operators
-- 🔹 Strings & Conditional Statements
-- 🔹 For Loop
-- 🔹 While Loop
-- 🔹 Functions
-- 🔹 List
-- 🔹 Tuple
-- 🔹 Dictionary
-- 🔹 Sets
-- 🔹 File Input Output
-- 🔹 OOPS
-- 🔹 Recursion
-- 🔹 Range
+ 🔹 Variables & Data Types
+ 🔹 Operators
+ 🔹 Strings & Conditional Statements
+ 🔹 For Loop
+ 🔹 While Loop
+ 🔹 Functions
+ 🔹 List
+ 🔹 Tuple
+ 🔹 Dictionary
+ 🔹 Sets
+ 🔹 File Input Output
+ 🔹 OOPS
+ 🔹 Recursion
+ 🔹 Range
 
 ---
 
