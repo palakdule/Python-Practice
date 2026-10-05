@@ -60,3 +60,38 @@ print(list)
 list = [2, 1, 3, 1]
 list.pop(2)
 print(list)
+
+
+#create a list using []
+a = [1, 2, 4, 56, 88, 6]
+
+#Print the list using print() function 
+print(a)
+
+#Access using index using a[0], a[1], a[2]
+print(a[2])
+
+#Change the value of list using 
+a[0] = 98
+print(a)
+
+#we can create a list with items of different types
+c = [45, "Palak", False, 4.9]
+print(c)
+
+#List slicing 
+friends = ["Palak", "Apurva", "Deepika", "Rounak", 66]
+print(friends[0:4])
+print(friends[-4:])
+
+
+#list methods
+l1 = [1, 8, 7, 2, 21, 15]
+print(l1)
+# l1.sort() #sorts the list
+# l1.reverse() #reverses the list
+# l1.append(45) #adds at the end of the list
+# l1.insert(2, 544) #inserts 544 at index 2
+# l1.pop(2) #remove element at index 2
+# l1.remove(21) #remove 21 from lists
+print(l1)
