@@ -91,7 +91,7 @@ print(l1)
 # l1.sort() #sorts the list
 # l1.reverse() #reverses the list
 # l1.append(45) #adds at the end of the list
-# l1.insert(2, 544) #inserts 544 at index 2
+# l1.insert(3, 8) #inserts 8 at index 3
 # l1.pop(2) #remove element at index 2
 # l1.remove(21) #remove 21 from lists
 print(l1)
