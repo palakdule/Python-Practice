@@ -72,3 +72,46 @@ print(student.get("name2")) #no error = none
 
 student.update({"city" : "delhi"})
 print(student)
+
+
+#Dictionary
+myDict = {
+    "Fast": "In a Qucik Manner",
+    "Palak": "A Coder",
+    "Marks": [1, 3, 6],
+    "anotherdict": {'Palak': 'student'}
+}
+
+print(myDict['Fast'])
+print(myDict['Palak'])
+myDict['Marks'] = [34,77]
+print(myDict['Marks'])
+print(myDict['anotherdict']['Palak'])
+
+
+#Dictionary methods
+myDict = {
+    "fast": "In a Qucik Manner",
+    "palak": "A Coder",
+    "marks": [1, 3, 6],
+    "anotherdict": {'Palak': 'student'},
+    1 : 2
+}
+
+print(myDict.keys())# Prints the keys of the dictionary
+print(myDict.values()) # Prints the values of the dictionary
+print(myDict.items()) # Prints the (key, value) for all contents of the dictionary 
+
+updateDict = {
+    "Apurva": "Friend"
+
+}
+myDict.update(updateDict) #update the dictionary by adding key-value pairs from updateDict
+print(myDict)
+
+print(myDict.get("palak")) # Prints value associated with key "palak"
+print(myDict["palak"]) # Prints value associated with key "palak"
+
+#Difference between .get and [] syntax in dictionaries
+# print(myDict.get("palak2")) #Returns None as palak2 is not present i dictionary
+# print(myDict["palak2"]) #throws an error as palak2 is not present in the dictionary
