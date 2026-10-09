@@ -24,6 +24,15 @@ while i >= 1:
 
 print("Loop ended")
 
+
+#print yes
+i = 0
+while i<10:
+    print("Yes " + str(i))
+    i = i + 1
+
+print("Done")
+
 #continue
 i = 0
 while i <= 5:
@@ -32,3 +41,5 @@ while i <= 5:
         continue #skip
     print(i)
     i+=1
+
+
