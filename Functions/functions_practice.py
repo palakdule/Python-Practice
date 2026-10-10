@@ -60,3 +60,22 @@ pattern(3)
 
 num = int(input("Enter a number: "))
 table(num)
+
+
+#Write a python function to remove a given word from a string and strip it at the same time 
+def remove_and_split(string, word):
+    newStr = string.replace(word, "")
+    return newStr.strip()
+
+this = "     Palak is a good girl     "
+n = remove_and_split(this, "Palak")
+print(n)
+
+
+#Write a python function to print multiplication table of a given number 
+def table(n):
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n*i}")
+
+num = int(input("Enter a number: "))
+table(num)
