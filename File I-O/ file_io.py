@@ -67,3 +67,42 @@ with open("demo.txt", "w")as f:
 #Deleting a file
 import os
 os.remove("sample.txt")
+
+
+# Use open function to read the content of a file
+# f = open('sample.txt', 'r')
+f = open('sample.txt') # by default the mode is r
+data = f.read()
+#data = f.read(5) reads first 5 characters from the file
+print(data)
+f.close()
+
+
+# readline function
+f = open('sample.txt') 
+data = f.readline()
+print(data)
+data = f.readline()
+print(data)
+f.close()
+
+
+# write function 
+f = open('another.txt', 'w')
+f.write("Please write this to the file")
+f.close()
+
+
+# append function 
+f = open('another.txt', 'a')
+f.write("I am appending")
+f.close()
+
+
+# with statement
+with open('another.txt', 'r') as f:
+    a = f.read()
+with open('another.txt', 'w') as f:
+    a = f.write("Hello")
+print(a)
+
